@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "dataset_title": "Motor Vehicle Collisions - Crashes",
+    "source_agency": "New York City Police Department (NYPD) / NYC Open Data",
+    "source_url": "https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95",
+    "provenance_type": "Official Municipal Open Data Portal",
+    "local_file_path": "C:/Users/nivet/Documents/NYC_Road_Safety_Visual_Analytics/data/raw/export.csv",
+    "audit_timestamp": "2026-10-25 23:04:04 IST",
+    "r_version": "R version 4.6.1 (2026-06-24 ucrt)"
+  },
+  "dimensions": {
+    "total_records": 2269187,
+    "total_columns": 29,
+    "unique_collision_ids": 2269187,
+    "duplicate_collision_ids": 0
+  },
+  "temporal_coverage": {
+    "earliest_date": "2012-07-01",
+    "latest_date": "2026-06-11",
+    "total_days_spanned": 5093,
+    "invalid_date_formats": 0
+  },
+  "geographic_quality": {
+    "records_with_valid_nyc_coords": 2020640,
+    "records_with_valid_nyc_coords_pct": 89.05,
+    "records_lacking_coordinates": 240806,
+    "records_lacking_coordinates_pct": 10.61,
+    "records_zero_coordinates": 7591,
+    "records_out_of_bounds": 7741,
+    "records_missing_borough": 691375,
+    "records_missing_borough_pct": 30.47
+  },
+  "severity_totals": {
+    "total_persons_injured_reported": 756353,
+    "total_persons_killed_reported": 3617,
+    "crashes_with_injuries": 558603,
+    "crashes_with_injuries_pct": 24.62,
+    "crashes_with_fatalities": 3469,
+    "crashes_with_fatalities_pct": 0.153,
+    "missing_injured_field_count": 18,
+    "missing_killed_field_count": 8913
+  },
+  "borough_distribution": {
+    "MISSING": 691375,
+    "BROOKLYN": 506806,
+    "QUEENS": 422409,
+    "MANHATTAN": 348485,
+    "BRONX": 234088,
+    "STATEN ISLAND": 66024
+  }
+}

@@ -1,0 +1,37 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+.Rproj.user/
+
+# Large raw datasets (>50MB excluded from Git)
+data/raw/*.csv
+data/raw/*.zip
+*.csv.zip
+Full_DataSet.csv
+outputs/drive_submission_package/03_Processed_Datasets_CSV/Full_DataSet.csv
+
+# Processed binary binaries (>25MB)
+data/processed/*.rds
+
+# Large zip archives (>50MB)
+*.zip
+outputs/*.zip
+outputs/drive_submission_package/06_Turnkey_Project_Zip/*.zip
+
+# Quarto / knitr cache & temporary rendering
+*_cache/
+*_files/
+.quarto/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

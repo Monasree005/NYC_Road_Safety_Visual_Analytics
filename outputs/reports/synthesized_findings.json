@@ -1,0 +1,72 @@
+{
+  "finding_01_volume_reduction": {
+    "title": "Sustained Reduction in Total Collision Volume Post-2020",
+    "claim": "Monthly reported collisions plummeted by 77.9% during the April 2020 COVID-19 lockdown and have settled at ~8,132 crashes/month post-2021, compared to a pre-COVID baseline of 18,693 crashes/month (2015-2019).",
+    "evidence": "table_08_temporal_findings.csv; fig_b_temporal_monthly_trend.png",
+    "support_figures": {
+      "pre_covid_avg": 18693,
+      "lockdown_min": 4129,
+      "pct_drop": -77.9,
+      "post_covid_avg": 8132
+    }
+  },
+  "finding_02_injury_rate_paradox": {
+    "title": "The Severity Inversion: Sharply Higher Proportion of Injury Collisions Post-COVID",
+    "claim": "While total collision volume decreased, the proportion of collisions resulting in injury or death increased dramatically from 19.3% pre-COVID (2013-2019 average) to 40.0% post-COVID (2021-2025 average), a +20.8 percentage point increase.",
+    "evidence": "table_08_temporal_findings.csv; fig_b_temporal_monthly_trend.png",
+    "support_figures": {
+      "pre_covid_rate": "19.3%",
+      "post_covid_rate": "40.0%",
+      "delta": "+20.8 pp"
+    }
+  },
+  "finding_03_temporal_rhythms": {
+    "title": "Bimodal Diurnal Traffic Commuter Peaks and High-Risk Weekend Early Hours",
+    "claim": "Reported collisions peak sharply on Friday between 16:00 and 17:00 (26,107 cumulative collisions), driven by evening commuter congestion. In contrast, late-night and weekend early AM hours (02:00-05:00) feature the lowest total crash volume but elevated severe/fatal outcomes associated with alcohol and speeding.",
+    "evidence": "table_05_weekday_hour_matrix.csv; fig_c_weekday_hour_heatmap.png",
+    "support_figures": {
+      "peak_window": "Friday 16:00-17:00",
+      "peak_volume": 26107,
+      "trough_window": "Tuesday 04:00-05:00",
+      "trough_volume": 2097
+    }
+  },
+  "finding_04_spatial_concentration": {
+    "title": "High Crash Density Corridors Concentrated along Major Arterials and Expressways",
+    "claim": "Geographic collision density is heavily clustered around high-volume interchange corridors: Midtown Manhattan (42nd St & FDR Drive), Downtown Brooklyn (Flatbush & Atlantic Ave), Queens Blvd / Long Island Expressway, and Cross Bronx Expressway.",
+    "evidence": "table_09_spatial_hotspots.csv; fig_a_spatial_hex_density.png",
+    "support_figures": {
+      "total_geocoded": 2020640,
+      "pct_spatial_ready": "89.0%"
+    }
+  },
+  "finding_05_vru_disproportionate_lethality": {
+    "title": "Extreme Vulnerability of Pedestrians and Cyclists to Fatal Outcomes",
+    "claim": "While motor vehicle occupants account for the majority of injured victims (540,227 injured, 1,466 killed; fatality rate of 2.71 deaths per 1,000 injured), pedestrians suffer a fatality rate of 13.10 deaths per 1,000 injured (4.83x higher than motorists) and represent more total fatalities (1,805) than vehicle occupants.",
+    "evidence": "table_10_vru_summary.csv; fig_e_severity_vru_distribution.png",
+    "support_figures": {
+      "pedestrian_killed": 1805,
+      "motorist_killed": 1466,
+      "ped_risk_ratio": 4.83
+    }
+  },
+  "finding_06_speeding_lethality": {
+    "title": "Unsafe Speeding and Traffic Disregard Exhibit Disproportionate Lethality",
+    "claim": "Driver Inattention is the most frequent contributing factor (484,012 crashes; 10.29 fatalities per 10k crashes). However, Unsafe Speeding exhibits an extreme fatality rate of 131.04 deaths per 10,000 crashes (12.7x higher than inattention) with a 43.2% injury rate.",
+    "evidence": "table_11_contributing_factors_ranked.csv; fig_f_contributing_factors_risk.png",
+    "support_figures": {
+      "inattention_fatality_rate": 10.29,
+      "speeding_fatality_rate": 131.04,
+      "speed_fatality_multiplier": 12.73
+    }
+  },
+  "finding_07_data_governance_gap": {
+    "title": "Significant Administrative Geocoding Gaps: Missing Borough vs Valid Coordinates",
+    "claim": "30.5% (691,375 records) lack an administrative Borough string. However, 488,444 of these records possess valid, high-precision GPS coordinates within NYC municipal limits. Conducting borough-level comparisons based solely on raw text strings discards over 21.5% of spatial data.",
+    "evidence": "table_02_data_quality_anomalies.csv; fig_g_data_quality_missingness.png",
+    "support_figures": {
+      "missing_borough_pct": "30.5%",
+      "recoverable_gps_count": 488444
+    }
+  }
+}

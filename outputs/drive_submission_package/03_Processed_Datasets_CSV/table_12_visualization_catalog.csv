@@ -1,0 +1,9 @@
+Figure_ID,File_Name,Analytical_Question,Visual_Encoding_Technique,Exists,File_Size_KB
+Visualization A,fig_a_spatial_hex_density.png,Q1: Where are reported collisions geographically concentrated?,Hexagonal 2D Spatial Binning with Log10 Magma Palette & Geospatial Annotations,TRUE,334.6
+Visualization A2,fig_a2_spatial_severity_comparison.png,Q1 & Q6: How do spatial patterns diverge between property-damage and injury collisions?,Faceted Hexagonal Cartography (Property Damage vs Injury Collisions),TRUE,278.5
+Visualization B,fig_b_temporal_monthly_trend.png,Q2: How do collision counts and reported injury outcomes vary across time?,Dual-Panel Longitudinal Time-Series Line Chart with Structural Policy Annotations,TRUE,181.6
+Visualization C,fig_c_weekday_hour_heatmap.png,Q3: Which combinations of weekday and hour contain highest crash concentrations?,7x24 Matrix Diurnal Heat Map with Magma Gradient and Empirical Peak Highlighting,TRUE,119.2
+Visualization D,fig_d_borough_comparison.png,Q4: How do collision volume and injury rates vary across boroughs over time?,Dual-Faceted Ranked Horizontal Bar & Multi-Line Borough Trend Panel,TRUE,175.1
+Visualization E,fig_e_severity_vru_distribution.png,Q5 & Q6: How are injury and fatality burdens distributed across road user classes?,Divergent Grouped Bar & Vulnerability Ratio Metric Panel (Motorist vs VRU),TRUE,147.4
+Visualization F,fig_f_contributing_factors_risk.png,Q6: Which recorded contributing factors are associated with disproportionate severity?,"Multivariate Bubble / Dumbbell Plot (Volume, Injury Rate, Fatality Intensity)",TRUE,234
+Visualization G,fig_g_data_quality_missingness.png,Q7: How do missingness and coordinate gaps affect analytical uncertainty?,Ranked Horizontal Stacked Bar Completeness Audit by Variable Domain,TRUE,189.7

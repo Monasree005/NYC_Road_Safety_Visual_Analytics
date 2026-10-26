@@ -1,0 +1,14 @@
+Metric,Value
+Total Ingested Records (Crashes),"2,269,187"
+Total Schema Columns,29
+Temporal Span (Earliest - Latest),2012-07-01 to 2026-06-11
+Duplicate Collision IDs,0
+Missing Geographic Coordinates,"240,806 (10.6%)"
+Valid NYC Coordinate Records,"2,020,640 (89.0%)"
+Missing Borough Attribute,"691,375 (30.5%)"
+Total Persons Injured (Reported),"756,353"
+Total Persons Killed (Reported),"3,617"
+Collisions with >= 1 Injury,"558,603 (24.6%)"
+Collisions with >= 1 Fatality,"3,469 (0.2%)"
+Missing Injury Count Field,18
+Missing Fatality Count Field,"8,913"

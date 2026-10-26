@@ -1,0 +1,11 @@
+Audit_Category,Record_Count,Percentage
+Coordinate Null or Empty,240806,10.6%
+"Coordinate Exactly (0, 0) / Null Island",7591,0.3%
+Coordinates Outside NYC Bounding Box,7741,0.3%
+Missing Borough (Uncoded Administrative Area),691375,30.5%
+Missing Latitude but Borough Present,37875,1.7%
+Valid Latitude but Missing Borough,488444,21.5%
+Collisions with Injured Count > 10 (Mass Casualty Events),202,0.0%
+Collisions with Fatalities >= 3,22,0.0%
+Reported Injured Count < 0 (Invalid Negatives),0,0.0%
+Reported Killed Count < 0 (Invalid Negatives),0,0.0%

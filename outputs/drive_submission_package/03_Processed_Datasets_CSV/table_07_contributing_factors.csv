@@ -1,0 +1,14 @@
+factor_standardized,total_crashes,injury_crashes,fatal_crashes,total_injured,total_killed,injury_rate_pct,fatality_per_10k
+Driver Inattention / Distraction,484012,131582,489,174159,498,27.19,10.29
+Other Recorded Behavioral Factors,343898,74605,375,107071,397,21.69,11.54
+Failure to Yield Right-of-Way,136046,58811,312,74149,313,43.23,23.01
+Following Too Closely,121711,34014,24,50391,25,27.95,2.05
+Backing Unsafely,82577,9339,43,10816,43,11.31,5.21
+Improper Lane Usage / Passing,66631,11705,48,15631,50,17.57,7.5
+Passing Too Closely,58028,4600,3,5731,3,7.93,0.52
+Improper Turning,55751,9947,21,13770,21,17.84,3.77
+Disregarded Traffic Control,41898,20086,279,30705,307,47.94,73.27
+Environmental / Mechanical Defect,38040,10513,31,15096,31,27.64,8.15
+Unsafe Speeding,35562,15363,414,24989,466,43.2,131.04
+Alcohol / Drug Impairment,27914,9155,123,14173,129,32.8,46.21
+Pedestrian / Cyclist Error,12156,9298,107,9849,107,76.49,88.02
